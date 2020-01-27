@@ -33,3 +33,19 @@ body {
     display: none;
 }
 
+#erro {
+    display: none;
+    color: red;
+}
+
+#spinner {
+    display: none;
+}
+
+#frase-id {
+    width: 40px;
+}
+
+#botao-sync {
+    float: right;
+}
