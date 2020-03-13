@@ -61,7 +61,7 @@ function sincronizaPlacar(){
     var placar = [];
     var linhas = $("tbody>tr");
 
-    linhas.each(function(){
+    linhas.each(function(){ 
         var usuario = $(this).find("td:nth-child(1)").text();
         var palavras = $(this).find("td:nth-child(2)").text();
 
